@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
     ublas::matrix<double> mat2(3, 3, 0.0);
     ublas::matrix<double> mat3(3, 3, 0.0);
 
-    //ublas::prod(mat1, ublas::prod(mat2, mat3));
+    ublas::prod(mat1, ublas::prod(mat2, mat3));
     
 
     return 0;
